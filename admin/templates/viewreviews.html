@@ -1,0 +1,87 @@
+{% extends 'adminmaster.html' %}
+{% load static %}
+{% block content %}
+<h2 class="p-4">View Reviews</h2>
+<hr class="hline w-100">
+<div class="container p-2">
+    <table class="table table-hover">
+        <thead class="text-center">
+          <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Review</th>
+            <th scope="col">Message</th>
+          </tr>
+        </thead>
+        <tbody class="text-center">
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>mark@gmail.com</td>
+            <td>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </td>
+            <td>Good Service</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>jacob@gmail.com</td>
+            <td>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </td>
+            <td>Not Bad</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>harshin</td>
+            <td>harshin@gmail.com</td>
+            <td>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+            </td>
+            <td>very helpful and experienced trainers</td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Sreehari</td>
+            <td>Sreehari@gmail.com</td>
+            <td>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </td>
+            <td>Good classes</td>
+          </tr><tr>
+            <th scope="row">5</th>
+            <td>shadil</td>
+            <td>shadil@gmail.com</td>
+            <td>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+            </td>
+            <td>i got my body fit</td>
+          </tr>
+        </tbody>
+      </table>
+</div>
+
+
+{% endblock %}

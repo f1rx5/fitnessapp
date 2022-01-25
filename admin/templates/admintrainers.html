@@ -1,0 +1,111 @@
+{% extends 'adminmaster.html' %}
+{% load static %}
+{% block content %}
+<style>
+    .card1{
+        height: 100%;
+    }
+</style>
+<h2 class="p-4">View Trainers</h2>
+<hr class="hline w-100">
+<div class="d-grid gap-2 d-md-flex justify-content-md-end p-2">
+    <a class="btn btn-outline-warning me-md-2" href="/admin/addtrainers/" role="button"><i class="fa fa-plus"></i> Add Trainers</a>
+</div>
+<div class="container p-2">
+    <table class="table table-hover">
+        <thead class="text-center">
+          <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Age</th>
+            <th scope="col">Email</th>
+            <th scope="col">Date of Joining</th>
+            <th scope="col">qualifications</th>
+            <th scope="col">Timing</th>
+            <th scope="col">Manage</th>
+          </tr>
+        </thead>
+        <tbody class="text-center">
+          <tr>
+            <th scope="row">1</th>
+            <td>John</td>
+            <td>29</td>
+            <td>john@gmail.com</td>
+            <td>2021-06-20</td>
+            <td>
+                <ul class="list-unstyled">
+                <li>Crossfit</li>
+                <li>Nutrition</li>
+                <li>Bodybuilding</li>
+                </ul>
+            </td>
+            <td>9:00AM-3:00PM</td>
+            <td>
+                <button type="button" class="btn btn-primary btn-sm editbtn"><i class="fa fa-edit"></i> Edit</button>
+                <button type="button" class="btn btn-secondary btn-sm  editbtn"><i class="fa fa-trash"></i> Remove</button>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Markus</td>
+            <td>31</td>
+            <td>mark123@gmail.com</td>
+            <td>2021-08-09</td>
+            <td>
+                <ul class="list-unstyled">
+                <li>weight-loss</li>
+                <li>Nutrition</li>
+                <li>Deit</li>
+                </ul>
+            </td>
+            <td>10:00AM-4:00PM</td>
+            <td>
+                <button type="button" class="btn btn-primary btn-sm editbtn"><i class="fa fa-edit"></i> Edit</button>
+                <button type="button" class="btn btn-secondary btn-sm  editbtn"><i class="fa fa-trash"></i> Remove</button>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>xhan</td>
+            <td>32</td>
+            <td>xhan@gmail.com</td>
+            <td>2022-01-06</td>
+            <td>
+                <ul class="list-unstyled">
+                <li>Boxing</li>
+                <li>Kettlball Power</li>
+                <li>Suppliment advisor</li>
+                </ul>
+            </td>
+            <td>3:00PM-3:00PM</td>
+            <td>
+                <button type="button" class="btn btn-primary btn-sm editbtn"><i class="fa fa-edit"></i> Edit</button>
+                <button type="button" class="btn btn-secondary btn-sm  editbtn"><i class="fa fa-trash"></i> Remove</button>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Ariana</td>
+            <td>25</td>
+            <td>Ariana@gmail.com</td>
+            <td>2021-05-30</td>
+            <td>
+                <ul class="list-unstyled">
+                <li>Yoga</li>
+                <li>Nutrition</li>
+                <li>Diet</li>
+                </ul>
+            </td>
+            <td>3:00PM-10:00PM</td>
+            <td>
+                <button type="button" class="btn btn-primary btn-sm editbtn"><i class="fa fa-edit"></i> Edit</button>
+                <button type="button" class="btn btn-secondary btn-sm  editbtn"><i class="fa fa-trash"></i> Remove</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+</div>
+
+
+
+{% endblock %}

@@ -1,0 +1,92 @@
+{% extends 'adminmaster.html' %}
+{% load static %}
+{% block content %}
+<h2 class="p-4">View Users</h2>
+<hr class="hline w-100">
+<div class="container p-2">
+<div class="table-responsive">
+<table class="table table-hover">
+    <thead class="text-center">
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Name</th>
+        <th scope="col">Age</th>
+        <th scope="col">Email</th>
+        <th scope="col">Phone No</th>
+        <th scope="col">Membership</th>
+        <th scope="col">Trainers</th>
+        <th scope="col">Manage</th>
+      </tr>
+    </thead>
+    <tbody class="text-center">
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>25</td>
+        <td>mark@gmail.com</td>
+        <td>9874563210</td>
+        <td><span class="badge bg-warning text-dark">Gold</span></td>
+        <td>john</td>
+        <td>
+            <button type="button" class="btn btn-primary btn-sm d-inline">Edit</button>
+            <button type="button" class="btn btn-secondary btn-sm  d-inline">Remove</button>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>20</td>
+        <td>jacob@email.com</td>
+        <td>8245674134</td>
+        <td><span class="badge bg-secondary text-dark">Silver</span></td>
+        <td>xhan</td>
+        <td>
+            <button type="button" class="btn btn-primary btn-sm d-inline">Edit</button>
+            <button type="button" class="btn btn-secondary btn-sm  d-inline">Remove</button>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>harshin</td>
+        <td>22</td>
+        <td>harshin@gmail.com</td>
+        <td>1234567904</td>
+        <td><span class="badge bg-dark text-light">Platinum</span></td>
+        <td>Joe</td>
+        <td>
+            <button type="button" class="btn btn-primary btn-sm d-inline">Edit</button>
+            <button type="button" class="btn btn-secondary btn-sm  d-inline">Remove</button>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td>Sreehari</td>
+        <td>20</td>
+        <td>sreehari@email.com</td>
+        <td>8542674134</td>
+        <td><span class="badge bg-secondary text-dark">Silver</span></td>
+        <td>john</td>
+        <td>
+            <button type="button" class="btn btn-primary btn-sm d-inline">Edit</button>
+            <button type="button" class="btn btn-secondary btn-sm  d-inline">Remove</button>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td>shadil</td>
+        <td>21</td>
+        <td>shadil@gmail.com</td>
+        <td>7584299526</td>
+        <td><span class="badge bg-warning text-dark">Gold</span></td>
+        <td>xhan</td>
+        <td>
+            <button type="button" class="btn btn-primary btn-sm d-inline">Edit</button>
+            <button type="button" class="btn btn-secondary btn-sm  d-inline">Remove</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+{% endblock %}

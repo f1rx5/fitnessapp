@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    background-color: #fff;
+}
+
+.card1 {
+    height: 100vh;
+    width: 100%;
+    background-color: orange;
+    border: none
+}
+
+.card2 {
+    height:100vh;
+    width: 100%;
+    background-color: #f6f5fa;
+    border: none
+}
+
+.image span {
+    color: #fff;
+    font-size: 28px
+}
+
+.hline {
+    color: rgb(0, 0, 0)
+}
+
+.dashbtn {
+    height: 40px;
+    width: 100%;
+    border: none;
+    position: relative;
+    border-radius: 5px
+}
+
+.dashbtn i {
+    position: absolute;
+    left: 17px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    top: 10px
+}
+
+.dashbtn span {
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    top: 10px
+}
+
+.dashbtn:hover {
+    background-color:white
+}
+.sidebar span{
+    color: black;
+}
+.sidebar i{
+    color: black;
+}
+
+.other {
+    color: #575c93
+}
+
+.hello span {
+    font-size: 25px;
+    font-weight: bold;
+    color: #3c3f61;
+    right: 40px
+}
+
+.shape {
+    background-color: #fff
+}
+
+.cardchild {
+    height: 100px;
+    width: 200px;
+    border: none;
+    position: relative;
+    border-radius: 10px
+}
+
+.type {
+    font-weight: 500
+}
+
+.number {
+    font-size: 25px;
+    color: #4f5366
+}
+
+.cardchild .logo1 {
+    position: absolute;
+    top: 15px;
+    right: 20px
+}
+
+.cardchild .percentage {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    color: #48ddd8;
+    font-weight: 500
+}
+
+.cardchild .logo2 {
+    position: absolute;
+    top: 15px;
+    right: 20px
+}
+
+.cardchild .percentage2 {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    color: #bb7484;
+    font-weight: 500
+}
+
+.cardchild .logo3 {
+    position: absolute;
+    top: 15px;
+    color: #bb7484;
+    right: 20px
+}
+
+.cardchild .percentage3 {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    color: #48ddd8;
+    font-weight: 500
+}
+
+.cardchild .logo4 {
+    position: absolute;
+    top: 15px;
+    right: 20px
+}
+
+.cardchild .percentage4 {
+    position: absolute;
+    bottom: 10px;
+    right: 15px;
+    color: #bb7484;
+    font-weight: 500
+}
+
+.cardchildchild {
+    width: 335px;
+    position: relative;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer
+}
+
+
+.cardchildchild .profile1 {
+    position: absolute;
+    border-radius: 50%;
+    top: -45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 120px
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 500
+}
+
+.braceletid {
+    font-size: 13px;
+    color: #bab9ba;
+    font-family: 'Source Sans Pro', sans-serif
+}
+
+.btn1 {
+    height: 35px;
+    width: 160px;
+    border: none;
+    background-color: #f8c01a;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 20px
+}
+
+.btn1:hover {
+    background-color: #c72b2b
+}
+
+.icons {
+    font-size: 20px;
+    font-weight: 500
+}
+
+.dummytext {
+    font-size: 14px;
+    font-weight: normal;
+    color: #b0aeb1
+}
+
+.btn2 {
+    height: 35px;
+    width: 160px;
+    border: none;
+    background-color: #c72b2b;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 20px
+}
+
+
+
+.btn2:hover {
+    background-color: #f8c01a
+}
+
+
+
+
+
+.order-card {
+    color: #fff;
+}
+
+.bg-c-blue {
+    background: linear-gradient(45deg,#4099ff,#73b4ff);
+}
+
+.bg-c-green {
+    background: linear-gradient(45deg,#2ed8b6,#59e0c5);
+}
+
+.bg-c-yellow {
+    background: linear-gradient(45deg,#FFB64D,#ffcb80);
+}
+
+.bg-c-pink {
+    background: linear-gradient(45deg,#FF5370,#ff869a);
+}
+
+
+.card {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+    box-shadow: 0 1px 2.94px 0.06px rgba(4,26,55,0.16);
+    border: none;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.card .card-block {
+    padding: 25px;
+}
+
+.order-card i {
+    font-size: 26px;
+}
+
+.f-left {
+    float: left;
+}
+
+.f-right {
+    float: right;
+}
+.checked {
+    color: orange;
+  }
+.silver{
+    background-image: linear-gradient(360deg,#bdc3c7,#2c3e50);
+}
+.gold{
+    background-image: linear-gradient(120deg,#CAC531,#F3F9A7);
+}
+.platinum{
+    background-image: linear-gradient(45deg,#000000,#434343);
+}
+.navigation{
+    height: 80px;
+    background-image: linear-gradient(20deg,orange,orange);
+}
+.navbar .nav-link{
+    margin: 0px 50px 0px 50px;
+    font-size: medium;
+    color: white;
+    padding: 10px;
+    transition: 0.6s
+}
+.navbar .nav-link:hover{
+    border-bottom:2px solid orange;
+    color: orange;
+}
+
+.nav2{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    /* height: 50px; */
+}

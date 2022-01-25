@@ -1,0 +1,90 @@
+{% extends 'trainermaster.html' %}
+{% load static %}
+{% block content %}
+<div class="p-5 table-responsive">
+<h2 class="p-4">View Clients</h2>
+<hr class="hline w-100">
+<table class="table table-hover">
+    <thead class="text-center">
+      <tr>
+        <th scope="col">No.</th>
+        <th scope="col">Name</th>
+        <th scope="col">Age</th>
+        <th scope="col">Status</th>
+        <th scope="col">Email</th>
+        <th scope="col">Phone No</th>
+        <th scope="col">Membership</th>
+        <th scope="col">Manage</th>
+      </tr>
+    </thead>
+    <tbody class="text-center">
+      <tr>
+        <th scope="row">1</th>
+        <td>shadil</td>
+        <td>21</td>
+        <td>overweight</td>
+        <td>shadil@gmail.com</td>
+        <td>9876543210</td>
+        <td><span class="badge bg-warning text-dark">Gold</span></td>
+        <td>
+            <button type="button" class="btn btn-primary btn-sm d-inline">Give Workouts</button>
+            <button type="button" class="btn btn-secondary btn-sm  d-inline">Give Diet Plan</button>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>harshin</td>
+        <td>22</td>
+        <td>healthy weight</td>
+        <td>harshin@gmail.com</td>
+        <td>987641210</td>
+        <td><span class="badge bg-dark text-white">platinum</span></td>
+        <td>
+            <button type="button" class="btn btn-primary btn-sm d-inline">Give Workouts</button>
+            <button type="button" class="btn btn-secondary btn-sm  d-inline">Give Diet Plan</button>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>vivek</td>
+        <td>20</td>
+        <td>underweight</td>
+        <td>vivek@gmail.com</td>
+        <td>7806543210</td>
+        <td><span class="badge bg-dark text-white">platinum</span></td>
+        <td>
+            <button type="button" class="btn btn-primary btn-sm d-inline">Give Workouts</button>
+            <button type="button" class="btn btn-secondary btn-sm  d-inline">Give Diet Plan</button>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td>shahil</td>
+        <td>25</td>
+        <td>helathy weight</td>
+        <td>shahil@gmail.com</td>
+        <td>43465453210</td>
+        <td><span class="badge bg-secondary text-dark">silver</span></td>
+        <td>
+            <button type="button" class="btn btn-primary btn-sm d-inline">Give Workouts</button>
+            <button type="button" class="btn btn-secondary btn-sm  d-inline">Give Diet Plan</button>
+        </td>
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td>ashwandh</td>
+        <td>22</td>
+        <td>underweight</td>
+        <td>ashwandh@gmail.com</td>
+        <td>7896543210</td>
+        <td><span class="badge bg-warning text-dark">Gold</span></td>
+        <td>
+            <button type="button" class="btn btn-primary btn-sm d-inline">Give Workouts</button>
+            <button type="button" class="btn btn-secondary btn-sm  d-inline">Give Diet Plan</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+{% endblock %}
