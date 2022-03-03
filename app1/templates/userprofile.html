@@ -1,0 +1,173 @@
+{% extends 'usermaster.html' %}
+{% load static %}
+{% block content %}
+<div class="row">
+    <div class="col-lg-12">
+        <h3 class="display-4 text-end mt-2">Hello ,Mark</h3>
+        <hr class="w-100">
+    </div>
+</div>
+
+<div class="row gx-5">
+    <div class="col-lg-6 p-3 border border-3 ">
+        <h3 class="text-center">Your Profile</h3>
+        <div class="row pt-3">
+            <div class="col-lg-4">
+                <h6>Name:</h6>
+            </div>
+            <div class="col-lg-8">
+                <p>Mark </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4">
+                <h6>Email:</h6>
+            </div>
+            <div class="col-lg-8">
+                <p>Mark@gmail.com </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4">
+                <h6>Age:</h6>
+            </div>
+            <div class="col-lg-8">
+                <p>25</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4">
+                <h6>Phone No</h6>
+            </div>
+            <div class="col-lg-8">
+                <p>9874563210 </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4">
+                <h6>Trainer:</h6>
+            </div>
+            <div class="col-lg-8">
+                <p>John </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4">
+                <h6>Membership:</h6>
+            </div>
+            <div class="col-lg-8">
+                <p><span class="badge bg-warning text-dark">Monthly</span></p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-lg-4">
+                <h6>Date of joining:</h6>
+            </div>
+            <div class="col-lg-8">
+                <p>25-06-2021</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-4">
+                <h6>membership upto:</h6>
+            </div>
+            <div class="col-lg-8">
+                <p>24-07-2021</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-6 border border-3 p-3">
+        <h3 class="text-center">Current BMI status</h3>
+        <div class="row pt-3">
+            <div class="col-lg-6">
+                <div class="col-lg-6">
+                    <h6>Weight(in kg):</h6>
+                </div>
+                <div class="col-lg-6">
+                    <p>64</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="col-lg-6">
+                    <h6>Height(in cm):</h6>
+                </div>
+                <div class="col-lg-6">
+                    <p>162</p>
+                </div>
+            </div>  
+        </div>
+        <div class="row pt-2">
+            <div class="col-lg-6 text-end">
+                <h6>BMI=</h6>
+            </div>
+            <div class="col-lg-6">
+                <p>25</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-6 text-end">
+                <h6>Your nutritional status=</h6>
+            </div>
+            <div class="col-lg-6">
+                <p>Normal weight</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#updatebmi">Update BMI</button>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-lg-12">
+                <h6>Your current Status</h6>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="progress mt-3">
+                    <div class="progress-bar progress-bar-striped bg-warning text-dark progress-bar-animated" role="progressbar" style="width: 64%;" aria-valuenow="64" aria-valuemin="0" aria-valuemax="100">64%</div>
+                  </div>
+            </div>
+        </div>
+    </div>   
+</div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="updatebmi" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Update BMI</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="mb-3">
+                  <label for="" class="form-label">Weight<sub>(in kg)</sub></label>
+                  <input type="number" class="form-control" id="" aria-describedby="">              
+                </div>
+                <div class="mb-3">
+                  <label for="" class="form-label">Height<sub>(in cm)</sub></label>
+                  <input type="number" class="form-control" id="">
+                </div>
+                <div class="text-center">
+                <button type="submit" class="btn btn-warning">Submit</button>
+                </div>
+            </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+{% endblock %}
